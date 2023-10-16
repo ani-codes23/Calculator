@@ -27,12 +27,16 @@ int main()
         switch(choice)
         {
             case 1:
+            add(a,b);
             break;
             case 2:
+            substract(a,b);
             break;
             case 3:
+            multiply(a,b);
             break;
             case 4:
+            divide(a,b);
             break;
             default: 
             printf("\nInvalid Input");
