@@ -17,6 +17,26 @@ int multiply(int a,int b)
 }
 int main()
 {
-    printf("\nHello World");
+    int choice;
+    
+    do
+    {
+        printf("\n1.Add 2.Substract 3. Multiply 4.Divide");
+        printf("\nEnter your choice : ");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+            case 1:
+            break;
+            case 2:
+            break;
+            case 3:
+            break;
+            case 4:
+            break;
+            default: 
+            printf("\nInvalid Input");
+        }
+    }while(choice!=0)
     return 0;
 }
