@@ -24,6 +24,7 @@ int main()
         printf("\n1.Add 2.Substract 3. Multiply 4.Divide");
         printf("\nEnter your choice : ");
         scanf("%d",&choice);
+
         switch(choice)
         {
             case 1:
@@ -40,6 +41,7 @@ int main()
             break;
             default: 
             printf("\nInvalid Input");
+            break;
         }
     }while(choice!=0)
     return 0;
